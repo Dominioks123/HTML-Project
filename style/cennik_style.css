@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+img{
+position: relative; top: 100px;
+  left: 200px;
+}
+
+#rectangle {
+	width: 1700px;
+	height: 100px;
+	background: transparent;
+  backdrop-filter: blur(8px);
+  position: fixed;top: -15px;
+  left: -170px;
+  z-index:5;
+}
+
+body{
+background-color: white;
+  height: 900px;
+}
+
+w{
+font-size: 50px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top: 10px; left: 400px;
+color: black;
+  z-index:9;
+}
+
+w:hover{
+  transform: scale(1.1);
+  transition: transform 1s ease-out;
+}
+
+
+.active{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 50px;
+color: black;
+  z-index: 10;
+}
+
+.termin{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 1370px;
+color: black;
+  z-index: 10;
+}
+
+.zapisy{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 1200px;
+color: black;
+  z-index: 10;
+}
+
+
+.cennik{
+font-size: 20px;
+font-family: 'Trebuchet MS';
+display: flex;
+gap: 72px;
+position: fixed; top:25px; left: 1280px;
+color: black;
+  z-index: 10;
+}
+
+
+
+
+
+
+
+
